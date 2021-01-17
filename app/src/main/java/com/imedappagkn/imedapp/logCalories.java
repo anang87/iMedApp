@@ -120,9 +120,7 @@ public class logCalories extends AppCompatActivity {
                     System.out.println(text);
                     System.out.println(confidence);
 
-                    String foodLabelRaw = "Banana"; //imageResults.get(0); -> Hardcoded for design/testing purposes only
-
-                    final int caloriesInFood = 100; // -> Would be determined through food database api in real implementation
+                   
                     // Hardcoded for design/testing/demo purposes only
 
                     // API call is below -> Commented out for demo purposes only
@@ -153,6 +151,10 @@ public class logCalories extends AppCompatActivity {
 //                    out.writeBytes(ParameterStringBuilder.getParamsString(parameters));
 //                    out.flush();
 //                    out.close();
+                    
+                    String foodLabelRaw = "Banana"; //imageResults.get(0); -> Hardcoded for design/testing purposes only
+
+                    final int caloriesInFood = 100; // -> Would be determined through food database api in real implementation
 
 
                     Toast.makeText(logCalories.this, "Logged " + caloriesInFood + " Calories For " + foodLabelRaw, Toast.LENGTH_LONG).show();
