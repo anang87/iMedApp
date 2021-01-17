@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans"
         android:text="Log Nutrition"
+        android:layout_marginTop="30dp"
         android:textColor="@android:color/white"
         android:textFontWeight="600"
         android:textSize="40sp"
