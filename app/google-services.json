@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "500101165799",
+    "firebase_url": "https://imedapphtn-a25af-default-rtdb.firebaseio.com",
+    "project_id": "imedapphtn-a25af",
+    "storage_bucket": "imedapphtn-a25af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500101165799:android:6b9f973fabde2ce75f6842",
+        "android_client_info": {
+          "package_name": "com.imedappagkn.imedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500101165799-7755iisfm3pmbbvf294iunhv6o6621fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS4sMnXQYEIF2NGzPOtS80yIOT3_JPSC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500101165799-7755iisfm3pmbbvf294iunhv6o6621fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

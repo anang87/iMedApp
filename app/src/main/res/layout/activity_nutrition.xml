@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nutritionActivity"
+    android:background="@drawable/nutritionbg">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="How are you feeling today?"
+        android:textColor="@android:color/white"
+        android:textFontWeight="100"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="450"
+        android:textAlignment="center"
+        android:textColor="#398692"
+        android:textFontWeight="100"
+        android:textSize="30sp"
+        android:translationZ="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/calorieView"
+        app:layout_constraintEnd_toEndOf="@+id/calorieView"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="@+id/calorieView"
+        app:layout_constraintTop_toTopOf="@+id/calorieView"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_marginRight="20dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="logButtonClicked"
+        android:background="@drawable/add"
+        app:layout_constraintBottom_toTopOf="@+id/weight"
+        app:layout_constraintEnd_toEndOf="@+id/weight" />
+
+
+    <Button
+        android:id="@+id/calorieView"
+        android:layout_width="230dp"
+        android:layout_height="300dp"
+        android:background="@drawable/food"
+        app:layout_constraintBottom_toTopOf="@+id/goal"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/weight"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/weight"
+        app:layout_constraintBottom_toTopOf="@+id/water"
+        app:layout_constraintEnd_toEndOf="@+id/water"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/water" />
+
+    <Button
+        android:id="@+id/water"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/water"
+        app:layout_constraintBottom_toTopOf="@+id/goal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/calorieView" />
+
+    <Button
+        android:id="@+id/goal"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/goal"
+        app:layout_constraintBottom_toTopOf="@+id/home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/home"
+        android:onClick="nutritionHomeClicked"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

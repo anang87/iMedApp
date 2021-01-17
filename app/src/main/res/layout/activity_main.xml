@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/homescreenbg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:textFontWeight="100"
+        android:text="Welcome John"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/quoteimg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="130dp"
+        android:clickable="true"
+        android:onClick="calendarClicked"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/datebar"
+        app:layout_constraintBottom_toTopOf="@+id/nutritionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/nutritionButton"
+        android:onClick="nutritionClicked"
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/nutritionbutton"
+        app:layout_constraintBottom_toTopOf="@+id/specialistButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mentalHealthButton"
+        android:onClick="mentalButtonClicked"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/mentalhealthbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/specialistButton"
+        android:onClick="specialistButtonClicked"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/contactspecialist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
