@@ -4,6 +4,7 @@ iMedApp is an application for all a person's mental health needs, tracking progr
 iMedApp is our submission for Hack the North 2020++
 
 
+<img src="/Screenshots/Home Screen -2.png" width="238" height="515">
 
 <img src="/Screenshots/Calendar.png" width="238" height="515">
 
