@@ -127,7 +127,7 @@ public class logCalories extends AppCompatActivity {
 
 //                    URL url = null;
 //                    try {
-//                        url = new URL("https://api.edamam.com/api/food-database/v2/parser?ingr=" +foodLabelRaw + "&app_id={https://www.google.com/search?client=safari&rls=en&q=49229ed2378bacf3c3f9768b4c48aedc&ie=UTF-8&oe=UTF-8}&app_key={cd068bb3}");
+//                        url = new URL("https://api.edamam.com/api/food-database/v2/parser?ingr=" +foodLabelRaw + "&app_id={https://www.google.com/search?client=safari&rls=en=UTF=UTF-8}&app_key={//}");
 //                    } catch (MalformedURLException e) {
 //                        e.printStackTrace();
 //                    }
